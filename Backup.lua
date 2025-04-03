@@ -2769,7 +2769,7 @@ Components.TitleBar = (function()
 						Enum.FontWeight.Regular,
 						Enum.FontStyle.Normal
 					),
-					TextSize = 12,
+					TextSize = 20,
 					TextXAlignment = "Left",
 					TextYAlignment = "Center",
 					Size = UDim2.fromScale(0, 1),
@@ -2788,7 +2788,7 @@ Components.TitleBar = (function()
 						Enum.FontWeight.Regular,
 						Enum.FontStyle.Normal
 					),
-					TextSize = 12,
+					TextSize = 20,
 					TextXAlignment = "Left",
 					TextYAlignment = "Center",
 					Size = UDim2.fromScale(0, 1),
