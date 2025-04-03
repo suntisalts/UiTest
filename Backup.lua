@@ -1,5 +1,7 @@
 -- Orginal: https://github.com/discoart/FluentPlus
 
+print("EFDEFWFE")
+
 ---@diagnostic disable: lowercase-global, undefined-global, undefined-field
 
 
