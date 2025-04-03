@@ -1,5 +1,3 @@
--- Orginal: https://github.com/discoart/FluentPlus
-
 ---@diagnostic disable: lowercase-global, undefined-global, undefined-field
 
 
@@ -2769,7 +2767,7 @@ Components.TitleBar = (function()
 						Enum.FontWeight.Regular,
 						Enum.FontStyle.Normal
 					),
-					TextSize = 20,
+					TextSize = 12,
 					TextXAlignment = "Left",
 					TextYAlignment = "Center",
 					Size = UDim2.fromScale(0, 1),
@@ -2788,7 +2786,7 @@ Components.TitleBar = (function()
 						Enum.FontWeight.Regular,
 						Enum.FontStyle.Normal
 					),
-					TextSize = 20,
+					TextSize = 12,
 					TextXAlignment = "Left",
 					TextYAlignment = "Center",
 					Size = UDim2.fromScale(0, 1),
@@ -6768,4 +6766,3 @@ end
 
 task.wait(0.1)
 return Library, SaveManager, InterfaceManager, Mobile
-
