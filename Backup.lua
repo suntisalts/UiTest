@@ -1380,7 +1380,7 @@ function Library:SafeCallback(Function, ...)
 				Title = "Interface",
 				Content = "Callback error",
 				SubContent = Event,
-				Duration = 5,
+				Duration = 0,
 			})
 		end
 
@@ -1388,7 +1388,7 @@ function Library:SafeCallback(Function, ...)
 			Title = "Interface",
 			Content = "Callback error",
 			SubContent = Event:sub(i + 1),
-			Duration = 5,
+			Duration = 0,
 		})
 	end
 end
@@ -6766,4 +6766,3 @@ end
 
 task.wait(0.1)
 return Library, SaveManager, InterfaceManager, Mobile
-
