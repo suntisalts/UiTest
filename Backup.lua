@@ -1376,20 +1376,22 @@ function Library:SafeCallback(Function, ...)
 		local _, i = Event:find(":%d+: ")
 
 		if not i then
-			return Library:Notify({
-				Title = "Interface",
-				Content = "Callback error",
-				SubContent = Event,
-				Duration = 0,
-			})
+            print("Interface Callback error")
+			--return Library:Notify({
+			--	Title = "Interface",
+			--	Content = "Callback error",
+			--	SubContent = Event,
+			--	Duration = 5,
+			--})
 		end
 
-		return Library:Notify({
-			Title = "Interface",
-			Content = "Callback error",
-			SubContent = Event:sub(i + 1),
-			Duration = 0,
-		})
+        print("Interface Callback error")
+		--return Library:Notify({
+			--Title = "Interface",
+			--Content = "Callback error",
+			--SubContent = Event:sub(i + 1),
+			--Duration = 5,
+		--})
 	end
 end
 
